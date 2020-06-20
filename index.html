@@ -4,7 +4,16 @@
   <head>
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
-    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/global.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/sections/header.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/sections/features.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/sections/products.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/sections/steps.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/sections/cities.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/sections/testimonials.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/sections/plans.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/sections/contact.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/sections/footer.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet" type="text/css">
     <title>4Taste</title>
   </head>
@@ -13,7 +22,9 @@
     <header>
       <nav>
         <div class="row">
-          <img class="logo" src="resources/img/logo-white.png" alt="4Taste logo">
+          <a href="#">
+            <img class="logo" src="resources/img/logo-white.png" alt="4Taste logo">
+          </a>
           <ul class="main-nav">
             <li><a href="#">Food delivery</a></li>
             <li><a href="#">How it works</a></li>
@@ -87,48 +98,48 @@
       </div>
     </section>
 
-    <section class="section-meals">
-      <ul class="meals-showcase clearfix">
+    <section class="section-products">
+      <ul class="products-showcase clearfix">
         <li>
-          <figure class="meal-photo">
+          <figure class="product-photo">
             <img src="resources/img/1.jpg" alt="Korean bibimbap with egg and vegetables">
           </figure>
         </li>
         <li>
-          <figure class="meal-photo">
+          <figure class="product-photo">
             <img src="resources/img/2.jpg" alt="Simple italian pizza with cherry tomatoes">
           </figure>
         </li>
         <li>
-          <figure class="meal-photo">
+          <figure class="product-photo">
             <img src="resources/img/3.jpg" alt="Chicken breast steak with vegetables">
           </figure>
         </li>
         <li>
-          <figure class="meal-photo">
+          <figure class="product-photo">
             <img src="resources/img/4.jpg" alt="Autumn pumpkin soup">
           </figure>
         </li>
       </ul>
 
-      <ul class="meals-showcase clearfix">
+      <ul class="products-showcase clearfix">
         <li>
-          <figure class="meal-photo">
+          <figure class="product-photo">
             <img src="resources/img/5.jpg" alt="Paleo beef steak with vegetables">
           </figure>
         </li>
         <li>
-          <figure class="meal-photo">
+          <figure class="product-photo">
             <img src="resources/img/6.jpg" alt="Healthy baguette with egg and vegetables">
           </figure>
         </li>
         <li>
-          <figure class="meal-photo">
+          <figure class="product-photo">
             <img src="resources/img/7.jpg" alt="Burger with cheddar and bacon">
           </figure>
         </li>
         <li>
-          <figure class="meal-photo">
+          <figure class="product-photo">
             <img src="resources/img/8.jpg" alt="Granola with cherries and strawberries">
           </figure>
         </li>
@@ -146,15 +157,15 @@
         </div>
         <div class="col span-1-of-2 steps-box">
           <div class="works-step">
-            <div>1</div>
+            <div class="custom-numbering">1</div>
             <p>Choose the subscription plan that best fits your needs and sign up today.</p>
           </div>
           <div class="works-step">
-            <div>2</div>
+            <div class="custom-numbering">2</div>
             <p>Order your delicious meal using our mobile app or website. Or you can even call us!</p>
           </div>
           <div class="works-step">
-            <div>3</div>
+            <div class="custom-numbering">3</div>
             <p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
           </div>
 
@@ -178,15 +189,15 @@
           <img src="resources/img/lisbon-3.jpg" alt="Lisbon">
           <h3>Lisbon</h3>
           <div class="city-feature">
-            <ion-icon name="person" class="icon-small"></ion-icon>
+            <ion-icon name="person" class="inline-icon-small"></ion-icon>
             1600+ happy eaters
           </div>
           <div class="city-feature">
-            <ion-icon name="star" class="icon-small"></ion-icon>
+            <ion-icon name="star" class="inline-icon-small"></ion-icon>
             60+ top chefs
           </div>
           <div class="city-feature">
-            <ion-icon name="logo-twitter" class="icon-small"></ion-icon>
+            <ion-icon name="logo-twitter" class="inline-icon-small"></ion-icon>
             <a href="#">@omnifood_lx</a>
           </div>
         </div>
@@ -195,15 +206,15 @@
           <img src="resources/img/san-francisco.jpg" alt="Lisbon">
           <h3>San Francisco</h3>
           <div class="city-feature">
-            <ion-icon name="person" class="icon-small"></ion-icon>
+            <ion-icon name="person" class="inline-icon-small"></ion-icon>
             3700+ happy eaters
           </div>
           <div class="city-feature">
-            <ion-icon name="star" class="icon-small"></ion-icon>
+            <ion-icon name="star" class="inline-icon-small"></ion-icon>
             160+ top chefs
           </div>
           <div class="city-feature">
-            <ion-icon name="logo-twitter" class="icon-small"></ion-icon>
+            <ion-icon name="logo-twitter" class="inline-icon-small"></ion-icon>
             <a href="#">@omnifood_sf</a>
           </div>
         </div>
@@ -212,15 +223,15 @@
           <img src="resources/img/berlin.jpg" alt="Lisbon">
           <h3>Berlin</h3>
           <div class="city-feature">
-            <ion-icon name="person" class="icon-small"></ion-icon>
+            <ion-icon name="person" class="inline-icon-small"></ion-icon>
             2300+ happy eaters
           </div>
           <div class="city-feature">
-            <ion-icon name="star" class="icon-small"></ion-icon>
+            <ion-icon name="star" class="inline-icon-small"></ion-icon>
             110+ top chefs
           </div>
           <div class="city-feature">
-            <ion-icon name="logo-twitter" class="icon-small"></ion-icon>
+            <ion-icon name="logo-twitter" class="inline-icon-small"></ion-icon>
             <a href="">@omnifood_berlin</a>
           </div>
         </div>
@@ -229,15 +240,15 @@
           <img src="resources/img/london.jpg" alt="Lisbon">
           <h3>London</h3>
           <div class="city-feature">
-            <ion-icon name="person" class="icon-small"></ion-icon>
+            <ion-icon name="person" class="inline-icon-small"></ion-icon>
             1200+ happy eaters
           </div>
           <div class="city-feature">
-            <ion-icon name="star" class="icon-small"></ion-icon>
+            <ion-icon name="star" class="inline-icon-small"></ion-icon>
             50+ top chefs
           </div>
           <div class="city-feature">
-            <ion-icon name="logo-twitter" class="icon-small"></ion-icon>
+            <ion-icon name="logo-twitter" class="inline-icon-small"></ion-icon>
             <a href="">@omnifood_london</a>
           </div>
         </div>
@@ -401,7 +412,7 @@
               <label>&nbsp;</label>
             </div>
             <div class="col span-2-of-3">
-              <input type="submit" value="Send it!">
+              <input class="btn" type="submit" value="Send it!">
             </div>
           </div>
         </form>

@@ -1,0 +1,53 @@
+
+/**
+ *  file: steps.css
+ *  author: luiz Henrique Pereira da Silva <lhpsilva.school@gmail.com>
+ *  created: 20/06/2020
+ *  updated: 20/06/2020
+ *
+ *  description: Este arquivo contém os estilos referentes a seção steps.
+ */
+
+.section-steps {
+  background-color: #e7e7e7;
+}
+
+.steps-box:first-child {
+  text-align: right;
+  padding-right: 3%;
+  margin-top: 30px;
+}
+
+.steps-box:last-child {
+  padding-left: 3%;
+  margin-top: 70px;
+}
+
+.app-screen {
+  width: 40%;
+}
+
+.works-step {
+  margin-bottom: 50px;
+  text-align: justify;
+}
+
+.works-step:last-of-type {
+  margin-bottom: 80px;
+}
+
+.custom-numbering {
+  float: left;
+  margin-right: 25px;
+}
+
+.btn-app:link,
+.btn-app:visited {
+  border: 0;
+}
+
+.btn-app img {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
+}

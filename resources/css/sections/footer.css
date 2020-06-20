@@ -1,0 +1,74 @@
+
+/**
+ *  file: footer.css
+ *  author: luiz Henrique Pereira da Silva <lhpsilva.school@gmail.com>
+ *  created: 20/06/2020
+ *  updated: 20/06/2020
+ *
+ *  description: Este arquivo contém os estilos referentes a seção footer.
+ */
+
+.footer-nav {
+  list-style: none;
+  float: left;
+}
+
+.social-links {
+  list-style: none;
+  float: right;
+}
+
+.footer-nav li,
+.social-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+  margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+  text-decoration: none;
+  border: 0;
+  color: #888888;
+  transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+  color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+  font-size: 160%;
+}
+
+.logo-facebook,
+.logo-instagram,
+.logo-twitter {
+  transition: color 0.2s;
+}
+
+.logo-facebook:hover {
+  color: #3b5998;
+}
+
+.logo-instagram:hover {
+  color: #517fa4;
+}
+
+.logo-twitter:hover {
+  color: #00aced;
+}
+
+footer p {
+  color: #888888;
+  text-align: center;
+  margin-top: 20px;
+}

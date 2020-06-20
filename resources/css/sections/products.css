@@ -1,0 +1,44 @@
+
+/**
+ *  file: products.css
+ *  author: luiz Henrique Pereira da Silva <lhpsilva.school@gmail.com>
+ *  created: 20/06/2020
+ *  updated: 20/06/2020
+ *
+ *  description: Este arquivo contém os estilos referentes a seção products.
+ */
+
+.section-products {
+  padding: 0;
+}
+
+.products-showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.products-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.product-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.product-photo img {
+  opacity: 0.7;
+  width: 100%;
+  height: auto;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.product-photo img:hover {
+  opacity: 1;
+  transform: scale(1.03);
+}

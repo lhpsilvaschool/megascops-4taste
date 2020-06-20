@@ -1,0 +1,36 @@
+
+/**
+ *  file: plans.css
+ *  author: luiz Henrique Pereira da Silva <lhpsilva.school@gmail.com>
+ *  created: 20/06/2020
+ *  updated: 20/06/2020
+ *
+ *  description: Este arquivo contém os estilos referentes a seção plans.
+ */
+
+.contact-form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #cccccc;
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type=checkbox] {
+  margin: 10px 5px 10px 0;
+}
+
+*:focus {
+  outline: none;
+}
